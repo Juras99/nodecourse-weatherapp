@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/app.js",
-    "nodemon_start": "nodemon src/app.js js,ejs"
+    "dev": "nodemon src/app.js js,ejs"
   },
   "keywords": [],
   "author": "",
@@ -13,7 +13,9 @@
   "dependencies": {
     "ejs": "^3.1.6",
     "express": "^4.17.3",
-    "hbs": "^4.2.0",
     "postman-request": "^2.88.1-postman.31"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
